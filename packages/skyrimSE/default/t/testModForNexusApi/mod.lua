@@ -1,0 +1,22 @@
+return {
+  name = "Test mod for Nexus api",
+  version = "1.5.0",
+  author = "AL12",
+  description = "This is an empty mod to test the Nexus API ",
+  files = { "2.4.0alpha6.txt" },
+  date = "2017-12-06T23:40:46.000+00:00",
+  url = "https://www.nexusmods.com/skyrimspecialedition/mods/23057",
+  nsfw = false,
+  depends = {},
+  incompatible = {},
+  patches = {},
+  replaces = {},
+  source = {
+    type = "NexusSource",
+    game = "skyrimspecialedition",
+    mod_id = 23057,
+    file_id = 214040,
+    archive_name = "1.5.0 version-23057-1-3-0-1626025302.7"
+  },
+  optional_files = {}
+}

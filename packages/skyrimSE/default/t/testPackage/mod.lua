@@ -1,0 +1,62 @@
+return {
+  name = "Test Mod!",
+  version = "1.0",
+  author = "Test Author",
+  description = "Some description",
+  files = { "SomeFile", "AnotherFile" },
+  date = "2017-12-06T23:40:46.000+00:00",
+  url = "https://www.nexusmods.com/skyrimspecialedition/mods/1000",
+  nsfw = false,
+  depends = {},
+  incompatible = { "anotherMod" },
+  patches = {
+    "hasPatchWithThisMod",
+    "alsoThisOne",
+  },
+  replaces = {},
+  source = {
+    type = "NexusSource",
+    game = "skyrimspecialedition",
+    mod_id = 1111,
+    file_id = 2222,
+    archive_name = "fileArchive.zip"
+  },
+  optional_files = {
+    {
+      name = "anOptionalFile",
+      version = "9.45.0",
+      author = "Test Author 2",
+      description = "Something",
+      files = { "Cool file" },
+      date = "2018-11-13T19:19:11.000+00:00",
+      depends = { "anotherMod" },
+      conflicts = {},
+      replaces = {},
+      source = {
+        type = "NexusSource",
+        game = "skyrimspecialedition",
+        mod_id = 1090,
+        file_id = 2253,
+        archive_name = "testArchive.zip"
+      }
+    },
+    {
+      name = "AnotherOptional",
+      version = "9.45.0",
+      author = "Test Author",
+      description = "Ok",
+      files = { "file" },
+      date = "2018-11-13T19:19:11.000+00:00",
+      depends = { "something" },
+      conflicts = {},
+      replaces = {},
+      source = {
+        type = "NexusSource",
+        game = "skyrimspecialedition",
+        mod_id = 1090,
+        file_id = 72243,
+        archive_name = "anotherName.zip"
+      }
+    }
+  }
+}
