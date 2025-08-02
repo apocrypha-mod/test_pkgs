@@ -33,7 +33,7 @@ return {
       conflicts = {},
       replaces = {},
       source = {
-        type = "NexusSource",
+        type = "Source_Nexus",
         game = "skyrimspecialedition",
         mod_id = 1090,
         file_id = 2253,
@@ -51,7 +51,7 @@ return {
       conflicts = {},
       replaces = {},
       source = {
-        type = "NexusSource",
+        type = "Source_Nexus",
         game = "skyrimspecialedition",
         mod_id = 1090,
         file_id = 72243,
