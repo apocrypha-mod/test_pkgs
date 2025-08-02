@@ -15,7 +15,7 @@ return {
   },
   replaces = {},
   source = {
-    type = "NexusSource",
+    type = "Source_Nexus",
     game = "skyrimspecialedition",
     mod_id = 1111,
     file_id = 2222,
